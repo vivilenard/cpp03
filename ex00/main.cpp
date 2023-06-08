@@ -6,7 +6,7 @@
 /*   By: vlenard <vlenard@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/02 13:04:42 by vlenard           #+#    #+#             */
-/*   Updated: 2023/06/08 18:57:09 by vlenard          ###   ########.fr       */
+/*   Updated: 2023/06/08 19:05:54 by vlenard          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ int	main()
 		Hanna.beRepaired(1);
 	Hanna.attack("Fred");
 	std::cout << Hanna << std::endl;
+	ClapTrap clone = ClapTrap(Hanna);
+	std::cout << "hihi" << clone << std::endl;
 	
 	Shapeshifter = Hanna;
 	std::cout << Shapeshifter << std::endl;

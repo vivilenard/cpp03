@@ -6,7 +6,7 @@ ClapTrap::~ClapTrap()
 }
 ClapTrap::ClapTrap():_name("X"), _hitPoints(10), _energyPoints(10), _attackDamage(0)
 {
-	std::cout << this->_name << " arises" << std::endl;
+	std::cout << "A ClapTrap arises" << std::endl;
 }
 
 ClapTrap::ClapTrap(std::string name): _name(name), _hitPoints(10), _energyPoints(10), _attackDamage(0)

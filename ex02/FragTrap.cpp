@@ -5,6 +5,14 @@ FragTrap::~FragTrap()
 	std::cout << "FragTrap " << this->_name << " gets destructed" << std::endl;
 }
 
+FragTrap::FragTrap() : ClapTrap()
+{
+	_hitPoints = 100;
+	_energyPoints = 100;
+	_attackDamage = 30;
+	std::cout << "FragTrap " << this->_name << " arises" << std::endl;
+}
+
 FragTrap::FragTrap(std::string name) : ClapTrap(name)
 {
 	_hitPoints = 100;

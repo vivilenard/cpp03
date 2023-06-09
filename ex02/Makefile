@@ -6,17 +6,17 @@
 #    By: vlenard <vlenard@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/30 14:21:29 by vlenard           #+#    #+#              #
-#    Updated: 2023/05/30 14:43:31 by vlenard          ###   ########.fr        #
+#    Updated: 2023/06/09 14:49:48 by vlenard          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = ClapTrap
+NAME = ScavTrap
 
 CXX = c++
 
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 
-SRC = main.cpp Fixed.cpp
+SRC = main.cpp ClapTrap.cpp FragTrap.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
